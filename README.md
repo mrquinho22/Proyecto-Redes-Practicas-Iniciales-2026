@@ -8,6 +8,12 @@ Implementación de un laboratorio de servicios de red con Windows Server, un cli
 
 > **Entrega de fase 1 · 15/10/2026:** [informe de implementación](entrega-fase-1/informe.md), [manual técnico](docs/02-manual-fase1.md), [evidencias](evidencias/README.md) y [guion de demostración](entrega-fase-1/demostracion.md). El alcance comprobado y las validaciones de cierre se detallan en la [matriz de pruebas](docs/03-pruebas-y-pendientes.md).
 
+## Fase 2: documentación actualizada
+
+La carpeta [fase-2/](fase-2/README.md) reúne lo trabajado hasta el 28/10/2026: Telnet, RDP/RD Web en SRV-PRINCIPAL, AD FS operativo e impresión desde el cliente y el principal. Incluye [manual paso a paso](fase-2/docs/02-manual.md), [68 capturas explicadas](fase-2/evidencias/README.md) y [matriz de requisitos](fase-2/docs/03-pruebas.md).
+
+**Exchange y WAP no tienen evidencia final recibida del servidor secundario.** También faltan RDP e impresión desde Exchange, la validación del puerto 8080 y los mensajes literales de error. AD FS configurado no equivale a WAP terminado. Los detalles están en [pendientes de integración](fase-2/pendientes/README.md). Las secciones originales siguientes conservan el contexto de fase 1.
+
 ## Entregas
 
 | Fase | Puntos del enunciado | Fecha |
@@ -26,7 +32,7 @@ La impresora compartida del punto 3 se evalúa en la fase 2, según la nota del 
 | [evidencias/](evidencias/README.md) | 22 capturas originales agrupadas por los puntos 1, 2, 3, 4, 6 y 8 |
 | [scripts/](scripts/README.md) | Diagnósticos separados para Windows Server y Ubuntu |
 | [configuracion/](configuracion/README.md) | Ubicaciones y parámetros de configuración documentados |
-| [fase-2/](fase-2/README.md) | Planificación de Exchange, Telnet, RDP, proxy e impresora |
+| [fase-2/](fase-2/README.md) | Informe, manual, 68 capturas, pruebas, incidencias y pendientes de integración |
 
 **Para estudiar:** [arquitectura](docs/01-arquitectura.md) → [manual](docs/02-manual-fase1.md) → [evidencias](evidencias/README.md).
 
@@ -91,3 +97,4 @@ Las direcciones son privadas: requieren estar en el laboratorio o tener acceso a
 4. Completar la matriz de pruebas y añadir evidencia de los pendientes cuando se realicen.
 
 Los scripts incluidos consultan información: no instalan roles ni cambian la red. No se incluyen ISOs, discos virtuales, bases de datos de correo, contraseñas, claves de Tailscale ni archivos privados de configuración. El repositorio documenta un laboratorio académico con sistemas heredados y protocolos sin TLS; su conectividad se mantiene dentro del laboratorio y la VPN.
+

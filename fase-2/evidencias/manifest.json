@@ -1,0 +1,685 @@
+{
+  "nota": "Capturas originales sin editar. Las fechas de archivo se conservan como identificadores; no se presume que coincidan con la hora local. Confirmaciones físicas se distinguen de lo visible en cada imagen.",
+  "capturas": [
+    {
+      "id": "E01",
+      "archivo": "evidencias/07-telnet/20261027-023059.png",
+      "original": "image(20261027-023059).png",
+      "descripcion": "Inventario inicial de roles, servicios y red",
+      "estado": "Diagnóstico inicial",
+      "sha256": "4ebf4fe70cbaf52a1b6eaef6b9861ed64c125b03100e0cad064f5a059c3cc8e4",
+      "ancho": 860,
+      "alto": 520
+    },
+    {
+      "id": "E02",
+      "archivo": "evidencias/07-telnet/20261027-023435.png",
+      "original": "image(20261027-023435).png",
+      "descripcion": "Instalación y estado del servicio Telnet",
+      "estado": "Configuración",
+      "sha256": "113d26e6820efd97ffadf08c1a9939f4cc7b1cfccbc1c50a7635850b97d819cb",
+      "ancho": 864,
+      "alto": 552
+    },
+    {
+      "id": "E03",
+      "archivo": "evidencias/07-telnet/20261027-023513.png",
+      "original": "image(20261027-023513).png",
+      "descripcion": "Consulta del dominio y perfil de red",
+      "estado": "Diagnóstico",
+      "sha256": "0f08bf3e99c88d06ca8d6c7c2d05a6cc31c1e5d10b7c7bb1a4e70ffe2e98ae95",
+      "ancho": 846,
+      "alto": 168
+    },
+    {
+      "id": "E04",
+      "archivo": "evidencias/07-telnet/20261027-024036.png",
+      "original": "image(20261027-024036).png",
+      "descripcion": "Grupo TelnetClients y parámetros del servidor Telnet",
+      "estado": "Configuración",
+      "sha256": "8b289cf064da324591d2a003068a031757656197fae86ef5ef29725e524b56f5",
+      "ancho": 862,
+      "alto": 349
+    },
+    {
+      "id": "E05",
+      "archivo": "evidencias/incidencias/20261027-024501.png",
+      "original": "image(20261027-024501).png",
+      "descripcion": "Acceso inicial fallido a la carpeta de VirtualBox desde el cliente",
+      "estado": "Incidencia",
+      "sha256": "50413d475a2456789c375d898ec865847f75e1754b3a94ef019bda99008da378",
+      "ancho": 613,
+      "alto": 230
+    },
+    {
+      "id": "E06",
+      "archivo": "evidencias/07-telnet/20261027-025121.png",
+      "original": "image(20261027-025121).png",
+      "descripcion": "Prueba TCP 23 inicialmente fallida desde el cliente",
+      "estado": "Incidencia",
+      "sha256": "69c9d4744e809dc58bac8aec1d5a1b4b8b8e7f07700e495f30b0cde7f88ac5bb",
+      "ancho": 671,
+      "alto": 321
+    },
+    {
+      "id": "E07",
+      "archivo": "evidencias/07-telnet/20261027-025457.png",
+      "original": "image(20261027-025457).png",
+      "descripcion": "Prueba TCP 23 satisfactoria desde el cliente",
+      "estado": "Verificado en captura",
+      "sha256": "56583836e671da89bf29573427d6aa276eb2dc78a480b2e6e9ed123428b25386",
+      "ancho": 566,
+      "alto": 193
+    },
+    {
+      "id": "E08",
+      "archivo": "evidencias/07-telnet/20261027-025655.png",
+      "original": "image(20261027-025655).png",
+      "descripcion": "usuario1 y usuario2 agregados a TelnetClients",
+      "estado": "Verificado en captura",
+      "sha256": "bea5472bed7d2196e816beb48d7a319cab37ed0ecdb0c877717e6c38ff7ed558",
+      "ancho": 588,
+      "alto": 239
+    },
+    {
+      "id": "E09",
+      "archivo": "evidencias/07-telnet/20261027-045235.png",
+      "original": "image(20261027-045235).png",
+      "descripcion": "Instalación de Telnet Client en Windows",
+      "estado": "Configuración",
+      "sha256": "6b8b393e5c0ba9efcc496b6c8689c0c65f52e2967f57a97fa98025d90943737a",
+      "ancho": 567,
+      "alto": 450
+    },
+    {
+      "id": "E10",
+      "archivo": "evidencias/07-telnet/20261027-045722.png",
+      "original": "image(20261027-045722).png",
+      "descripcion": "Cliente Telnet no disponible antes de completar su instalación",
+      "estado": "Incidencia",
+      "sha256": "8cf47d588a582af06c428a7139cfe971c3cf0b95bdd78ae1b8370c5bf3551047",
+      "ancho": 828,
+      "alto": 232
+    },
+    {
+      "id": "E11",
+      "archivo": "evidencias/07-telnet/20261027-050210.png",
+      "original": "image(20261027-050210).png",
+      "descripcion": "Sesión Telnet: SRV-PRINCIPAL y servidor1\\usuario1",
+      "estado": "Prueba funcional",
+      "sha256": "c4f796a6480201a32ab48fea661b2a444a50f2f273c95433ca22d16a13bbef46",
+      "ancho": 546,
+      "alto": 169
+    },
+    {
+      "id": "E12",
+      "archivo": "evidencias/09-rdp-rdweb/20261027-050724.png",
+      "original": "image(20261027-050724).png",
+      "descripcion": "Inventario previo: roles de acceso remoto y federación disponibles",
+      "estado": "Diagnóstico inicial",
+      "sha256": "c17711b7fec5158b54d6e717a6423c141f33049f711b03ad0badd99351d39a3a",
+      "ancho": 855,
+      "alto": 214
+    },
+    {
+      "id": "E13",
+      "archivo": "evidencias/03-impresora/20261027-055654.png",
+      "original": "image(20261027-055654).png",
+      "descripcion": "Epson compartida como impresora en el HOST 192.168.0.200",
+      "estado": "Verificado en captura",
+      "sha256": "95bc3fb6c7d3f733b76aba26c2e95176fb330c1bcbb3e9f96fedc60cc89d202c",
+      "ancho": 799,
+      "alto": 395
+    },
+    {
+      "id": "E14",
+      "archivo": "evidencias/03-impresora/20261027-060502.png",
+      "original": "image(20261027-060502).png",
+      "descripcion": "Intento inicial de conexión desde Windows Server fallido",
+      "estado": "Incidencia",
+      "sha256": "c6b1d3b452dc4bb3fad9e366b1aeaac9880e05bcdc7cd399be5f731646ad587a",
+      "ancho": 1111,
+      "alto": 554
+    },
+    {
+      "id": "E15",
+      "archivo": "evidencias/03-impresora/20261027-060602.png",
+      "original": "image(20261027-060602).png",
+      "descripcion": "Error inicial 0x0000011b al conectar la impresora",
+      "estado": "Incidencia",
+      "sha256": "3dc86e30fe122c3631623cb58cc26faf11833d1ecfeed608163cd03438773b05",
+      "ancho": 389,
+      "alto": 198
+    },
+    {
+      "id": "E16",
+      "archivo": "evidencias/incidencias/20261027-060812.png",
+      "original": "image(20261027-060812).png",
+      "descripcion": "Get-HotFix: error al ordenar la propiedad InstalledOn",
+      "estado": "Incidencia",
+      "sha256": "cb17f1919c67b7e652a39b95a9f4d15694e307ace9e9de9bad3b9054ad17992f",
+      "ancho": 861,
+      "alto": 489
+    },
+    {
+      "id": "E17",
+      "archivo": "evidencias/03-impresora/20261027-061111.png",
+      "original": "image(20261027-061111).png",
+      "descripcion": "Spooler activo e inventario de actualizaciones sin ordenar InstalledOn",
+      "estado": "Diagnóstico",
+      "sha256": "1b505819e5e89439ed728e8d48a31033af29fc40d9046bf3c89920ebdaecd22e",
+      "ancho": 535,
+      "alto": 337
+    },
+    {
+      "id": "E18",
+      "archivo": "evidencias/03-impresora/20261027-061144.png",
+      "original": "image(20261027-061144).png",
+      "descripcion": "Error de ruta de red 0x80070035 al acceder a impresora",
+      "estado": "Incidencia",
+      "sha256": "4694b7d7b0bede47890f68ef3301d20260927971085e64f452d81a56553dd3cb",
+      "ancho": 529,
+      "alto": 249
+    },
+    {
+      "id": "E19",
+      "archivo": "evidencias/03-impresora/20261027-061512.png",
+      "original": "image(20261027-061512).png",
+      "descripcion": "Segundo intento de acceso al recurso impresora sin ruta disponible",
+      "estado": "Incidencia",
+      "sha256": "b770bc2f5d26ad78f4e4e4f4e06a584bb70388394604c1be46d4b0e7ad754417",
+      "ancho": 521,
+      "alto": 242
+    },
+    {
+      "id": "E20",
+      "archivo": "evidencias/03-impresora/20261027-061750.png",
+      "original": "image(20261027-061750).png",
+      "descripcion": "TCP 445 fallido desde CLI-WINDOWS01",
+      "estado": "Incidencia",
+      "sha256": "5e4a135a8ca4371c0bf7e36dae32c057019be12a2a6ca442bb913888aa4ade41",
+      "ancho": 526,
+      "alto": 310
+    },
+    {
+      "id": "E21",
+      "archivo": "evidencias/03-impresora/20261027-062004.png",
+      "original": "image(20261027-062004).png",
+      "descripcion": "TCP 445 satisfactorio desde CLI-WINDOWS01",
+      "estado": "Verificado en captura",
+      "sha256": "97666ade7cee13700c664e26af3a570f8fa3516dc6ab4f58c63b7f540a05b91d",
+      "ancho": 488,
+      "alto": 200
+    },
+    {
+      "id": "E22",
+      "archivo": "evidencias/03-impresora/20261027-062410.png",
+      "original": "image(20261027-062410).png",
+      "descripcion": "Solicitud de elevación para instalar controladores",
+      "estado": "Configuración",
+      "sha256": "c2e3c01430e5c2991b54bf4229f726f4cb8076991c8bbaff3cb81fde07d034db",
+      "ancho": 440,
+      "alto": 496
+    },
+    {
+      "id": "E23",
+      "archivo": "evidencias/03-impresora/20261027-062750.png",
+      "original": "image(20261027-062750).png",
+      "descripcion": "Acceso denegado durante la búsqueda del controlador",
+      "estado": "Incidencia",
+      "sha256": "e19eca50f1eb81fdf660045f37f13a3f47ec9db1ed154e96acc60f6158129ae2",
+      "ancho": 743,
+      "alto": 233
+    },
+    {
+      "id": "E24",
+      "archivo": "evidencias/03-impresora/20261027-063514.png",
+      "original": "image(20261027-063514).png",
+      "descripcion": "Error 1219 por sesiones con credenciales diferentes",
+      "estado": "Incidencia",
+      "sha256": "775c0b7e52314ccedd2c24f7921aeb010c4d0d4452c8182c087e5cc1ed55bad9",
+      "ancho": 847,
+      "alto": 180
+    },
+    {
+      "id": "E25",
+      "archivo": "evidencias/03-impresora/20261027-063603.png",
+      "original": "image(20261027-063603).png",
+      "descripcion": "Inventario de la conexión SMB existente a impresora",
+      "estado": "Diagnóstico",
+      "sha256": "169e8431a064e805576bf2af2df8cb6a72bccd3c3e4082f7f37d638f1f1a52a2",
+      "ancho": 572,
+      "alto": 171
+    },
+    {
+      "id": "E26",
+      "archivo": "evidencias/03-impresora/20261027-063822.png",
+      "original": "image(20261027-063822).png",
+      "descripcion": "Retiro de conexión anterior y autenticación IPC$ satisfactoria",
+      "estado": "Verificado en captura",
+      "sha256": "e8151bbe108f5815f7e80313948d6685ee304310371c58b7cc914d4dcaa63a00",
+      "ancho": 623,
+      "alto": 189
+    },
+    {
+      "id": "E27",
+      "archivo": "evidencias/03-impresora/20261027-064053.png",
+      "original": "image(20261027-064053).png",
+      "descripcion": "Acceso denegado aun después de autenticar SMB",
+      "estado": "Incidencia",
+      "sha256": "56d13cf656a8c40ed13c499eab3bb2e0e1dabfe08edacab5ba65aff0f4dde49f",
+      "ancho": 734,
+      "alto": 534
+    },
+    {
+      "id": "E28",
+      "archivo": "evidencias/03-impresora/20261027-065259.png",
+      "original": "image(20261027-065259).png",
+      "descripcion": "Controlador Epson agregado al cliente como oem2.inf",
+      "estado": "Verificado en captura",
+      "sha256": "c965625640b21ab69b030844e0229e235c1160485d255a3b79670efe5b43f7d9",
+      "ancho": 547,
+      "alto": 361
+    },
+    {
+      "id": "E29",
+      "archivo": "evidencias/03-impresora/20261027-065458.png",
+      "original": "image(20261027-065458).png",
+      "descripcion": "Propiedades Epson y página de prueba en cola desde el cliente",
+      "estado": "Cola visible; impresión confirmada por el usuario",
+      "sha256": "d409ce9502ed11096b5f68945ebbd67ff8f0e7446a10534a44ec33f5ed4b84cd",
+      "ancho": 923,
+      "alto": 554
+    },
+    {
+      "id": "E30",
+      "archivo": "evidencias/09-rdp-rdweb/20261027-230849.png",
+      "original": "image(20261027-230849).png",
+      "descripcion": "RDP inicialmente deshabilitado y TermService detenido",
+      "estado": "Diagnóstico inicial",
+      "sha256": "23540a5c13b5231d7b72c7c3dd1f2b8df98553cd8a8e8b3c0476869e7a98507d",
+      "ancho": 864,
+      "alto": 226
+    },
+    {
+      "id": "E31",
+      "archivo": "evidencias/09-rdp-rdweb/20261027-231433.png",
+      "original": "image(20261027-231433).png",
+      "descripcion": "Error de autenticación CredSSP en el acceso RDP",
+      "estado": "Incidencia",
+      "sha256": "4c5d13ca6f47eff8a3d10f4ec2a3ce7ccb35ce88c0e2d195490de06a582a21b5",
+      "ancho": 547,
+      "alto": 230
+    },
+    {
+      "id": "E32",
+      "archivo": "evidencias/09-rdp-rdweb/20261027-232905.png",
+      "original": "image(20261027-232905).png",
+      "descripcion": "Escritorio de SRV-PRINCIPAL abierto desde el cliente",
+      "estado": "Prueba funcional",
+      "sha256": "5a6d73b10bab4f979ffaa836bb5c92cfd7cc83a906a14a018193b4664b4ada3b",
+      "ancho": 1366,
+      "alto": 701
+    },
+    {
+      "id": "E33",
+      "archivo": "evidencias/09-rdp-rdweb/20261027-233143.png",
+      "original": "image(20261027-233143).png",
+      "descripcion": "Identidad del servidor y sesión RDP-Tcp#1 como administrador",
+      "estado": "Prueba funcional",
+      "sha256": "59866ef121dea52f30af5c7a39de4d49cc6aeeb1babe653cedb320f8c46d3d45",
+      "ancho": 801,
+      "alto": 263
+    },
+    {
+      "id": "E34",
+      "archivo": "evidencias/09-rdp-rdweb/20261028-000158.png",
+      "original": "image(20261028-000158).png",
+      "descripcion": "Instalación del rol RD Web Access satisfactoria",
+      "estado": "Configuración",
+      "sha256": "fffbaa18fe55edcbea06081f619d47c9e70ae3cdea4e623636f8f6928c944d6b",
+      "ancho": 845,
+      "alto": 138
+    },
+    {
+      "id": "E35",
+      "archivo": "evidencias/09-rdp-rdweb/20261028-000321.png",
+      "original": "image(20261028-000321).png",
+      "descripcion": "Enlaces IIS y certificado existente antes de AD FS",
+      "estado": "Diagnóstico",
+      "sha256": "f42c86537375970e3138c2e7f1b90da14a6c3025660369cfe6d798f0351f5afe",
+      "ancho": 700,
+      "alto": 479
+    },
+    {
+      "id": "E36",
+      "archivo": "evidencias/09-rdp-rdweb/20261028-000433.png",
+      "original": "image(20261028-000433).png",
+      "descripcion": "Regla Practicas-RDWeb-HTTPS habilitada en TCP 443",
+      "estado": "Configuración",
+      "sha256": "81819c709bcebe21867eae3f20f254252a036bddd607ad370a783b70c4cfcdea",
+      "ancho": 827,
+      "alto": 415
+    },
+    {
+      "id": "E37",
+      "archivo": "evidencias/09-rdp-rdweb/20261028-000652.png",
+      "original": "image(20261028-000652).png",
+      "descripcion": "Formulario de acceso de RD Web por nombre de dominio",
+      "estado": "Prueba funcional",
+      "sha256": "21be8e2a08d5d8316ac18a3ae05c617f070bf6c0cbe1b53692f3a6b59e37db77",
+      "ancho": 985,
+      "alto": 640
+    },
+    {
+      "id": "E38",
+      "archivo": "evidencias/09-rdp-rdweb/20261028-000946.png",
+      "original": "image(20261028-000946).png",
+      "descripcion": "Sesión iniciada en el portal sin RemoteApps publicadas",
+      "estado": "Prueba funcional",
+      "sha256": "61581d85137bb4c87c84d25907ef45b1821c81a3227bc3151e2b4d23e2f9539a",
+      "ancho": 1032,
+      "alto": 557
+    },
+    {
+      "id": "E39",
+      "archivo": "evidencias/09-rdp-rdweb/20261028-001452.png",
+      "original": "image(20261028-001452).png",
+      "descripcion": "Portal vacío antes de utilizar Conectarse a un equipo remoto",
+      "estado": "Diagnóstico",
+      "sha256": "a0cb3c4bbc40c8af835508d8fc6b4d3fd66dd31bb3598d2a832628ab8b3a1db0",
+      "ancho": 997,
+      "alto": 386
+    },
+    {
+      "id": "E40",
+      "archivo": "evidencias/09-rdp-rdweb/20261028-001900.png",
+      "original": "image(20261028-001900).png",
+      "descripcion": "Conexión al FQDN; SESSIONNAME mostraba Console en PowerShell",
+      "estado": "Diagnóstico de sesión",
+      "sha256": "1482efb3f1ae8bd655b719173182a46861bc9ff7b1474fe080ca4bc09a854c36",
+      "ancho": 881,
+      "alto": 470
+    },
+    {
+      "id": "E41",
+      "archivo": "evidencias/09-rdp-rdweb/20261028-002606.png",
+      "original": "image(20261028-002606).png",
+      "descripcion": "query session confirma rdp-tcp#2 Administrador activo",
+      "estado": "Prueba funcional",
+      "sha256": "cb6017890407c71b67ae34f9f6d5e749a8e0b55ca6d62fe8b808cd9b5a8fc5c8",
+      "ancho": 580,
+      "alto": 118
+    },
+    {
+      "id": "E42",
+      "archivo": "evidencias/incidencias/20261028-010337.png",
+      "original": "image(20261028-010337).png",
+      "descripcion": "Recursos limitados de la Intel: memoria y disco disponibles",
+      "estado": "Diagnóstico de capacidad",
+      "sha256": "c82838da24e4a8e170d109269fbaf49a0a5e0239b074fb9eadbbd374cb0811b9",
+      "ancho": 447,
+      "alto": 235
+    },
+    {
+      "id": "E43",
+      "archivo": "evidencias/10-adfs/20261028-011754.png",
+      "original": "image(20261028-011754).png",
+      "descripcion": "Rol AD FS instalado; configuración todavía pendiente en ese momento",
+      "estado": "Configuración",
+      "sha256": "c15ba92d3f4ad327a7955c9d1c7933cd75a71175d8dfda7391598cb862a6026c",
+      "ancho": 831,
+      "alto": 215
+    },
+    {
+      "id": "E44",
+      "archivo": "evidencias/10-adfs/20261028-011953.png",
+      "original": "image(20261028-011953).png",
+      "descripcion": "Enlace TLS existente de IIS y adfssrv detenido antes de configurar",
+      "estado": "Diagnóstico inicial",
+      "sha256": "c4da5b8d385bed9c00f735bface5a20e3a65daedd2398618d27c2cb4c2d8e976",
+      "ancho": 726,
+      "alto": 375
+    },
+    {
+      "id": "E45",
+      "archivo": "evidencias/10-adfs/20261028-012523.png",
+      "original": "image(20261028-012523).png",
+      "descripcion": "fs.servidor1.com resuelve a 192.168.0.20 y sintaxis local de certificados",
+      "estado": "Verificado en captura",
+      "sha256": "f33e437d92e994704b821a52a9d86ff1c400ce249cf2f6807a0f9f8ea6e0e26f",
+      "ancho": 837,
+      "alto": 331
+    },
+    {
+      "id": "E46",
+      "archivo": "evidencias/10-adfs/20261028-012741.png",
+      "original": "image(20261028-012741).png",
+      "descripcion": "Certificado fs.servidor1.com creado con clave privada",
+      "estado": "Verificado en captura",
+      "sha256": "7697b20721a12355fc472626a80a1428c5c973703323dfdc5950cf17fbf559f1",
+      "ancho": 731,
+      "alto": 506
+    },
+    {
+      "id": "E47",
+      "archivo": "evidencias/10-adfs/20261028-014553.png",
+      "original": "image(20261028-014553).png",
+      "descripcion": "Importación de confianza y comprobaciones previas de AD FS",
+      "estado": "Configuración; salida parcial",
+      "sha256": "6c3716d8d4f7e91435b0131ebd37b54f1c362014a0b60a757bdfa26f4692e2d6",
+      "ancho": 853,
+      "alto": 451
+    },
+    {
+      "id": "E48",
+      "archivo": "evidencias/10-adfs/20261028-014817.png",
+      "original": "image(20261028-014817).png",
+      "descripcion": "Granja AD FS creada, servicio Running y HTTPS 443",
+      "estado": "Prueba de configuración",
+      "sha256": "91e0a667b089c58b10cbcff0d5a49a5e9b3439e196a56620804583ce01884721",
+      "ancho": 873,
+      "alto": 364
+    },
+    {
+      "id": "E49",
+      "archivo": "evidencias/10-adfs/20261028-015301.png",
+      "original": "image(20261028-015301).png",
+      "descripcion": "Página de AD FS muestra Ha iniciado sesión",
+      "estado": "Prueba funcional",
+      "sha256": "aa9e41c2310d21fa8eafd87232eb96def22e5271c4b174520139d9789c466dae",
+      "ancho": 1028,
+      "alto": 536
+    },
+    {
+      "id": "E50",
+      "archivo": "evidencias/10-adfs/20261028-021524.png",
+      "original": "image(20261028-021524).png",
+      "descripcion": "Exportación PFX fallida al omitir el nombre del comando",
+      "estado": "Incidencia",
+      "sha256": "76c96e4a2651d1e8841854d95d0b0c005d8572494c0eb6f77ae842d6b52c857e",
+      "ancho": 846,
+      "alto": 469
+    },
+    {
+      "id": "E51",
+      "archivo": "evidencias/10-adfs/20261028-021736.png",
+      "original": "image(20261028-021736).png",
+      "descripcion": "Archivo PFX exportado de 2923 bytes; solo se muestra su listado",
+      "estado": "Verificado en captura",
+      "sha256": "961d13d6583fe5c6c1b2ef071c8872d5a163428cc842f9d33bb6527a260ec5dc",
+      "ancho": 856,
+      "alto": 326
+    },
+    {
+      "id": "E52",
+      "archivo": "evidencias/09-rdp-rdweb/20261028-021952.png",
+      "original": "image(20261028-021952).png",
+      "descripcion": "Inicio de sesión RD Web satisfactorio después de configurar AD FS",
+      "estado": "Prueba de coexistencia",
+      "sha256": "607afaf7ebe4d81e6af429457ac15a593f2444ba4fe8449aac616bd2caa63a6a",
+      "ancho": 1019,
+      "alto": 462
+    },
+    {
+      "id": "E53",
+      "archivo": "evidencias/09-rdp-rdweb/20261028-022332.png",
+      "original": "image(20261028-022332).png",
+      "descripcion": "Después de AD FS: SRV-PRINCIPAL y rdp-tcp#3 Administrador activo",
+      "estado": "Prueba funcional",
+      "sha256": "dc0a5ebe3ad007802efa59e046c3d1e0775753b5a075f5cbc31db549b1775ad4",
+      "ancho": 588,
+      "alto": 154
+    },
+    {
+      "id": "E54",
+      "archivo": "evidencias/incidencias/20261028-023637.png",
+      "original": "image(20261028-023637).png",
+      "descripcion": "Copia al HOST bloqueada por carpeta VirtualBox de solo lectura",
+      "estado": "Incidencia",
+      "sha256": "dd7a5c25e2bce06f6c9ab3ec2665654439f8455c79a42d33eaf549d9f282d02d",
+      "ancho": 855,
+      "alto": 394
+    },
+    {
+      "id": "E55",
+      "archivo": "evidencias/incidencias/20261028-024041.png",
+      "original": "image(20261028-024041).png",
+      "descripcion": "Error de parámetro o ruta durante la copia por VBoxSvr",
+      "estado": "Incidencia",
+      "sha256": "399b1437e17d4410127b44ffaa53aa3f53037ef1203399b8c335534aa2fdf300",
+      "ancho": 856,
+      "alto": 461
+    },
+    {
+      "id": "E56",
+      "archivo": "evidencias/incidencias/20261028-024817.png",
+      "original": "image(20261028-024817).png",
+      "descripcion": "VBoxSvr devuelve 0x80070043, nombre de red no encontrado",
+      "estado": "Incidencia",
+      "sha256": "ea981c526956f3ed327f0d646b328ebb6da4fa44dd6a7d0b91aa0d0faf2cfe3c",
+      "ancho": 542,
+      "alto": 265
+    },
+    {
+      "id": "E57",
+      "archivo": "evidencias/incidencias/20261028-025124.png",
+      "original": "image(20261028-025124).png",
+      "descripcion": "Configuración de la carpeta compartida TransferenciaPracticas",
+      "estado": "Diagnóstico",
+      "sha256": "b12645c00f4d22c02dd9b0422e232fcb3169a9738780237989bda5b20855663a",
+      "ancho": 820,
+      "alto": 504
+    },
+    {
+      "id": "E58",
+      "archivo": "evidencias/incidencias/20261028-025516.png",
+      "original": "image(20261028-025516).png",
+      "descripcion": "Acceso a carpeta compartida aún fallido",
+      "estado": "Incidencia",
+      "sha256": "255b8bf7676041507d0050415d40ee57f8e2bb1c1b5c27559be9ac75c0077463",
+      "ancho": 847,
+      "alto": 548
+    },
+    {
+      "id": "E59",
+      "archivo": "evidencias/incidencias/20261028-025536.png",
+      "original": "image(20261028-025536).png",
+      "descripcion": "VBoxService activo; reinicio ejecutado después de corregir comando",
+      "estado": "Diagnóstico",
+      "sha256": "fe49e322e70a65cdaf5e1454ab4cd4cf83832b675e82067ed2b84b5f7f7be1ff",
+      "ancho": 850,
+      "alto": 288
+    },
+    {
+      "id": "E60",
+      "archivo": "evidencias/incidencias/20261028-025804.png",
+      "original": "image(20261028-025804).png",
+      "descripcion": "Acceso todavía fallido tras reiniciar el servidor",
+      "estado": "Incidencia",
+      "sha256": "61b2addf0356a461205c0027b52e3084e80a862ce229807cb0f7a56572a0cd6f",
+      "ancho": 848,
+      "alto": 484
+    },
+    {
+      "id": "E61",
+      "archivo": "evidencias/incidencias/20261028-030639.png",
+      "original": "image(20261028-030639).png",
+      "descripcion": "VBoxSF cargado; VBoxControl no estaba en la ruta supuesta",
+      "estado": "Diagnóstico",
+      "sha256": "9cd58127e5458db3ac32488766e2c09a787a7893db1c95c68bfa79d8ed829057",
+      "ancho": 840,
+      "alto": 332
+    },
+    {
+      "id": "E62",
+      "archivo": "evidencias/incidencias/20261028-031325.png",
+      "original": "image(20261028-031325).png",
+      "descripcion": "VBoxService localizado en System32; consola esperando continuación",
+      "estado": "Diagnóstico",
+      "sha256": "b1b820fbdfc2e0c58017dcd1b035826589effb13b4921cd75adcc379ee35cdd2",
+      "ancho": 713,
+      "alto": 529
+    },
+    {
+      "id": "E63",
+      "archivo": "evidencias/incidencias/20261028-031556.png",
+      "original": "image(20261028-031556).png",
+      "descripcion": "VBoxControl 7.2.20 informa Shared Folder mappings (0)",
+      "estado": "Causa identificada",
+      "sha256": "25a10d23f5c340c8609f243fd1e7dc785eb35626eb0101d059a739caaf24a1ed",
+      "ancho": 638,
+      "alto": 174
+    },
+    {
+      "id": "E64",
+      "archivo": "evidencias/03-impresora/20261028-032236.png",
+      "original": "image(20261028-032236).png",
+      "descripcion": "Servidor sin Epson instalada y TCP 445 al HOST satisfactorio",
+      "estado": "Diagnóstico inicial",
+      "sha256": "9041ba3d1164c8c4ea3e49f4c60f7d151153af2d9ab722763d1dc646cbebc2c3",
+      "ancho": 854,
+      "alto": 265
+    },
+    {
+      "id": "E65",
+      "archivo": "evidencias/03-impresora/20261028-042356.png",
+      "original": "image(20261028-042356).png",
+      "descripcion": "Paquete Epson agregado a Windows Server como oem4.inf",
+      "estado": "Verificado en captura",
+      "sha256": "be1173f30e47e392cab584d425cd4f09f25eddcb7725199875389527a6d1984e",
+      "ancho": 836,
+      "alto": 209
+    },
+    {
+      "id": "E66",
+      "archivo": "evidencias/03-impresora/20261028-042812.png",
+      "original": "image(20261028-042812).png",
+      "descripcion": "Driver registrado; conexión compartida falla con 0x80070040",
+      "estado": "Incidencia",
+      "sha256": "0ac0558921a206d24835579001de9569b15d018cffd23da34673fdb7a5ba2a69",
+      "ancho": 843,
+      "alto": 296
+    },
+    {
+      "id": "E67",
+      "archivo": "evidencias/03-impresora/20261028-043018.png",
+      "original": "image(20261028-043018).png",
+      "descripcion": "IPC$ autenticado; Add-Printer falla con 0x8007011b",
+      "estado": "Incidencia",
+      "sha256": "e13f5e1051d200b984e753968892dd7859ecbfef4207430d01b4cdabcff39a07",
+      "ancho": 835,
+      "alto": 183
+    },
+    {
+      "id": "E68",
+      "archivo": "evidencias/03-impresora/20261028-044029.png",
+      "original": "image(20261028-044029).png",
+      "descripcion": "Epson-Red creada con puerto UNC y estado Normal",
+      "estado": "Configuración funcional; impresión confirmada por el usuario",
+      "sha256": "5d0289b1572f00f82914e93dbb23c11371f7a6d863fd66323f4a78f6f28e46b9",
+      "ancho": 866,
+      "alto": 268
+    }
+  ]
+}
